@@ -1633,8 +1633,8 @@ default n
 depends on CPU_FREQ && !PERFLOCK
 depends on ARCH_MSM7X30
 
-config JESUS_PHONE
-bool "Enable up to 1.8Ghz speeds"
+config CONFIG_INSANE_SPEEDS
+bool "Enable 1.92 overclock step, possibly unstable"
 default n
 depends on ACPUCLOCK_OVERCLOCKING
 depends on ARCH_MSM7X30
