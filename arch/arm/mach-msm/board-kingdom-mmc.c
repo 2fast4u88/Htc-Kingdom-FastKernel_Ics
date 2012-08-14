@@ -162,9 +162,9 @@ struct mmc_vdd_xlat {
 };
 
 static struct mmc_vdd_xlat mmc_vdd_table[] = {
-	{ MMC_VDD_20_21,        2450 },
-	{ MMC_VDD_28_29,        2650 },
-        { MMC_VDD_29_30,        2700 },
+	{ MMC_VDD_20_21,        2650 },
+	{ MMC_VDD_28_29,        2750 },
+        { MMC_VDD_29_30,        2800 },
 };
 
 static unsigned int sdslot_vdd = 0xffffffff;
