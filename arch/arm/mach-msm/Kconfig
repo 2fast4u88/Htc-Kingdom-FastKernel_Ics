@@ -1633,7 +1633,7 @@ default n
 depends on CPU_FREQ && !PERFLOCK
 depends on ARCH_MSM7X30
 
-config CONFIG_INSANE_SPEEDS
+config INSANE_SPEEDS
 bool "Enable 1.92 overclock step, possibly unstable"
 default n
 depends on ACPUCLOCK_OVERCLOCKING
